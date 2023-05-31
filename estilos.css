@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    margin: 0;
+}
+
+/* 
+    ----- PALHETA DE CORES -----
+    Marrom:         #795548
+    Marrom Escuro:  #5D4037
+    Marrom Claro:   #D7CCC8
+    Verde:          #4CAF50
+*/
+
+.apresentacao{
+    background-color: #795548;
+    color: #FFF;
+    padding: 5% 50px;
+    display: flex;
+    justify-content: space-around; /* Horizontal*/
+    align-items: center; /* Vertical */
+    box-shadow: 0 0 10px #5D4037; 
+}
+
+.titulo{
+    font-size: 46px;
+}
+
+.botaoPadrao{
+    background-color: #4CAF50;
+    color: #FFF;
+    border: none;
+    padding: 10px 40px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.botaoPadrao:hover{
+    background-color: #388E3C;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.imgApresentacao{
+    width: 300px;
+    border-radius: 20%;
+    box-shadow: 10px 10px 10px #5D4037;
+    transition: 0.3s;
+}
+.imgApresentacao:hover{
+    box-shadow: 1px solid #795548;
+    transform: scale(1.1)
+}
+
+
+.cafes h2{
+
+    font-size: 40px;
+    text-align: center;
+}
+.cafes h3{
+    font-size: 30px;
+}
+
+.cafes i{
+    font-size: 40px;
+    color: #795548;
+    margin-bottom: 0;
+}
+
+.cafesFlex{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.cafesFlex div{
+    width: 300px;
+}
+
+
+
+.produtos{
+    padding: 30px 30px;
+    text-align: center;
+    min-height: 800px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.produtosFlex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ImgCafes{
+    width: 300px;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px #5D4037;
+}
+.produtosFlex div:hover{
+    box-shadow: 1px solid #795548;
+    transform: scale(1.1)
+
+}
+.produtosFlex div{
+    border: 1px solid transparent;
+    transition: 0.3s;
+    width: 800px;
+    margin-bottom: 100px; 
+}
+
+
+.combos{
+    background-color: #795548;
+    color: #FFF;
+    align-items: center;
+    box-shadow: 0 0 10px #5D4037; 
+}
+.combos h2{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+.combos h3{
+    font-size: 20px;
+    text-align: center;
+}
+.combosFlex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.combosFlex p{
+     font-size: 40px;
+     font-weight: bold;
+}
+.combosFlex button{
+    margin-bottom: 40px
+}
+
+.byebye{
+    box-shadow: 0 0 10px #4CAF50; 
+    display: flex;
+    justify-content: space-around;
+    background-color: #5D4037;
+    align-items: center;
+    color: #FFF;
+}
+
+.byebye div{
+    justify-content: right;
+}
+
+.byebye a{
+    color: #FFF;
+}
+
+
